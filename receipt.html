@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Registration Receipt</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+<div class="receipt-page">
+
+    <div id="receipt"></div>
+
+    <button
+        class="btn no-print"
+        onclick="window.print()"
+    >
+        Print / Save PDF
+    </button>
+
+</div>
+
+
+<script src="app.js"></script>
+
+<script>
+
+    loadReceipt();
+
+</script>
+
+</body>
+
+</html>
